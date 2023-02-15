@@ -1,0 +1,29 @@
+1. let arr=["Gery","mary","Devon","James"]
+ for(x=0,x < arr.length; x++){
+      console.log(arr[x]);
+2. let arr=["Gray","mary","Devon","James"]
+      arr.shift("Gray")
+     console.log(arr)
+3.  let arr=["mary","Devon","James"]
+       arr.pop("Jame")
+      console.log(arr)
+4.  let arr=["Gray","mary","Devon",]
+     arr.unshift("matt")
+     console.log(arr)
+5.let arr=["matt","mary","Devon",]
+ arr.push("Khalilrahman")
+      console.log(arr)
+6.let arr=["matt","mary","Devon","Khalilrahman"]
+  for(x=0,x < arr.length; x++){
+      console.log(arr[x]);
+7.let arr=["matt","mary","Devon","Khalilrahman"]
+  arr.slice(0,1)(1,2)
+ console.log(arr)
+8.let arr=["matt","mary","Devon","Khalilrahman"]
+  arr.index(1)
+  console.log(arr)
+9.let arr=["Devon","Khalilrahman"]
+  arr.slice(0,1)(1,2)
+ console.log(arr)
+10.
+11.withbob=[]  

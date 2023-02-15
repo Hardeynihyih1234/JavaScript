@@ -1,0 +1,83 @@
+javascript test 101
+1.Create the following variables o name,which is a string set of your current name
+o dayofBirth,which is a number set to the day of your birth mouth
+Answer
+ let name="khalilrahman"
+ console.log(nmae)
+ let dateofbirth=302005
+ console.log(dateofbirth)
+
+2.the first variable
+
+3.let favouritecolor=prompt("enter your favourite color")
+console.log("what"+ is your +"favourite color") 
+ 
+4.console.log("mrs shade/'s writting is beautiful")
+
+5.null are empty element while undifed are the element that are either not correct or are not putting well
+ 
+6.NaN in javascript means not a number.
+6b.
+
+7.undefined
+
+8."keep it up!"
+
+9.
+
+10.it will display the third variable "1" because the first is nuill while the second variable is an empty string
+ 
+11.
+
+13.No.Because it a null element
+
+14.No.Because it an empty string
+
+15.Yes.Because it an integer  
+
+part 1
+a.arr=[]
+b.let arr=[]
+ arr[0]="Khalilrahman"
+ console.log(arr)
+
+c.let arr=["Khalilrahman"]
+  arr.push=("Adeniyi")
+ console.log(arr)
+
+d.let arr=["Khalilrahman","Adeniyi"]
+ arr.unshift("Yellow")
+ console.log(arr)
+
+16a. let arr=["Yellow","khalilrahman","Adeniyi"]
+     arr.shift("Yellow")
+     console.log(arr)
+
+16b. arr2=[]
+
+16c. let arr2=[]
+     arr2[0]=7
+    console.log(arr2)
+16d. let arr2=[7]
+     arr2[1]="Javascript"
+     console.log(arr2)
+17. arr2=[7,"Javascript"]
+
+18.
+
+19.
+
+20. combinedArr=["khalilrahman","Adeniyi",7,"Javascript"]
+
+21.combinedArr=["khalilrahman","Adeniyi",7,"Javascript"]
+
+22.Let arr=["Python","Ruby"]
+arr.shift()
+arr.pop()
+console.log(arr)
+ 
+23 
+
+24.
+
+25

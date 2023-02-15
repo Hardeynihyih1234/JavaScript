@@ -1,0 +1,48 @@
+1. Write a JS code to print numbers from 1 to 10.
+Answer:
+for (let i = 0; i < 10; i++){
+console.log(i);
+}
+2. Write a JS code to print Even numbers in given array
+let arr = [13,23,12,45,22,48,66,100]
+Answer:
+let arr = [13,23,12,45,22,48,66,100]
+let x;
+  for(x=0; x<arr.length; x++){
+    if(x%2 == 0){
+      console.log(arr[x]);
+    }
+3.  Write a JS code to find the largest number in an array
+
+var arr = [2, 45, 3, 67, 34, 567, 34, 345, 123]; 
+Answer:
+var arr = [2, 45, 3, 67, 34, 567, 34, 345, 123];
+console.log(Math.max(...arr));
+
+4. Write a JS code to count all letters in a word
+var str="Suggesting";
+Answer:
+var str="Suggesting";
+console.log(str.length);
+
+5.Declare and initialize an array called Planets with 5 string values
+console.log each item in the array
+Also console.log the index in each iteration
+Answer:
+var Planets=["mars", "venus", "earth", "jupiter", "Pluto", "uranus"];
+for (let i = 0; i < Planets.length; i++){
+console.log(Planets[i]);
+console.log(i);
+}
+6. Declare and initialize an array called - wowDatatypes
+
+The array must have 5 different data types (NOT objects)
+Iterate over the array and console.log each item in the array + it’s index and data type in the array
+Answer:
+11.
+let furniture = ['Table', 'Chairs','Couch'];
+For each item in this array console.log the letters in each item
+
+Answer:
+let furniture = ['Table', 'Chairs', 'Couch']
+furniture.forEach(e => console.log(e.split('')))

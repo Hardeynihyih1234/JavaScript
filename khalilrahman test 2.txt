@@ -1,0 +1,16 @@
+let me{
+firstname:"Khalilrahman"
+lastname:"Adeniyi"
+ocupation:Student
+}
+me.firstname
+console.log(me.firstname)
+console.log(me.lastname)
+console.log(me.occupation)
+
+console.log(me["firstname"])
+console.log(me["lastname"])
+console.log(me["occupation"])
+3.me.hubby = "playinggame"
+
+4.console.log(delete me.occupation)

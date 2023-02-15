@@ -1,0 +1,81 @@
+	Part I 
+Write the code necessary to do the following: 
+1. Create an empty array called arr.
+ answer 
+ arr=[]
+ console.log(arr);
+2. Add your first name to the arr variable 
+ answer
+let arr=[] 
+arr[0]="Khalilrahman";
+ console.log(arr);
+3. Add your last name to the end of the arr variable
+ answer
+ let arr=['Khalilrahman']
+arr.push("Adeniyi")
+ console.log(arr);
+  
+4. Add your favorite color to the beginning of the arr variable 
+ Answer
+ let arr = ['Khalilrahman','Adeniyi']
+arr.unshift("yellow")
+ console.log(arr);
+
+Your variable arr should look like this (using Elie for a first name, Schoppik for a last 
+name and purple for a favorite color) ["purple", "Elie", "Schoppik"]. Keep going! 
+5. Remove the favorite color from the in the array - arr
+ variable (remember this is the first value what method can you use to remove the first value in an array?) 
+ Answer
+let arr=['yellow','Khalilrahman','Adeniyi'] 
+arr.shift();
+console.log(arr);			
+
+6. Create another array called arr2.
+Answer
+arr2=[]
+console.log(arr2); 
+ 
+7. Add your favorite number to arr2 	 
+Answer
+arr2[0]=7;
+console.log(arr2);
+	 
+8.Add the string "JavaScript" to the end of the arr2 variable 
+Your variable arr2 should look like this (using 42 as a favorite number) [42, 
+"JavaScript"].
+ Answer
+let arr2 =[7] 
+arr2.push;("Javascript")
+ console.log(arr2);
+
+9. See if the value 42 exists in the arr2 array. Do this using the indexOf method. What does indexOf return
+to you if the value passed to it can not be found in the array?
+ Answer
+10. Create a new variable called combinedArr which is the result of your arr and arr2 variables combined into one array.
+Your combinedArr variable should look like this (using our previous values) ["Elie", "Schoppik", 42, "JavaScript"]
+Answer
+let combinedArr =["Khalilrahman","Adeniyi",7,"Javascript"]
+ console.log(arr2)
+                Part II
+ Complete the following, starting from the following array: 
+let arr = ["JavaScript", "Python", "Ruby", "Java"]
+ 1. Return the following array: ["Python", "Ruby"].
+  Answer
+  let arr = ["JavaScript","Python", "Ruby", "Java"];
+arr.splice(0,1);
+arr.splice(2,1);
+console.log(arr); 
+ 2. Combine the array with the array ["Haskell", "Clojure"].
+ Answer
+arr = ["JavaScript","Python", "Ruby", "Java"];
+let combinedArr = arr.concat("Haskell", "Clojure");
+console.log(combinedArr);
+
+ 3. Return the string "JavaScript, Python, Ruby, Java".
+ Answer
+arr = ["JavaScript", "Python", "Ruby", "Java"];
+let arr2 = [arr.join(", ")];
+console.log(arr2);
+
+ 4. Try to explain, in your own words (or diagrams!) what the difference is between passing by value vs. passing by reference
+ Answer
